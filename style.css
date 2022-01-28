@@ -1,9 +1,40 @@
-.header{
-    position: absolute;
-width: 1440px;
-height: 69px;
-left: 0px;
-top: 0px;
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+.home{
+    
+position: absolute;
+width: 69px;
+height: 67px;
+left: calc(50% - 69px/2 - 677.5px);
+top: calc(50% - 67px/2 - 401.5px);
 
-background: #C4C4C4;
+background: #CC9E9E;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+}
+.navbar{
+    position: absolute;
+    
+}
+.privacy{
+position: absolute;
+width: 188.03px;
+height: 28px;
+left: 212px;
+top: 85px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.38;
 }
